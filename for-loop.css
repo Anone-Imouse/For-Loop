@@ -1,0 +1,22 @@
+body {
+  margin:0;
+  padding:0;
+  display:flex;
+  height:100vh;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(springgreen,cyan);
+} button {
+  font-family:"Open Sans"sans-serif;
+  cursor:pointer;
+  font-weight:900;
+  font-size:30px;
+  border-radius:10px;
+  padding:6px 18px;
+  background:none;
+  border:2px solid;
+  transition: 2s ease;
+} button:hover {
+  background: white;
+  color:cyan;
+}
